@@ -12,6 +12,23 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/test.css" rel="stylesheet">
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.js'></script>
+    <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
+
+
+    <script type='text/javascript'>//<![CDATA[ 
+    $(window).load(function(){
+    $(document).ready(function(){
+        $('#dismissal').click(function(){
+            $.cookie('iDream22-12-2014','true');
+        })
+        if($.cookie('iDream22-12-2014') == 'true'){
+            $('.alert').hide();
+        }
+    })
+    });//]]>  
+
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,12 +54,12 @@
         </div>
 
         <div class="alert alert-success alert-dismissible fade in" role="alert">
-          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <button type="button" class="close" data-dismiss="alert" id="dismissal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
           <h4>iDream's tierlist has recently been updated!</h4>
           <p>Click below to view his updated tierlist for the current patch. Heroes in iDream's list are ordered from best to worse and are grouped depending on role.</p>
           <p>
             <a href="./idream-tierlist"><button type="button" class="btn btn-success">View iDream's tierlist</button></a>
-            <button type="button" class="btn btn-default" data-dismiss="alert">No Thanks</button>
+            <button type="button" class="btn btn-default" data-dismiss="alert" id="dismissal">No Thanks</button>
           </p>
         </div>
 
@@ -510,7 +527,6 @@
 </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modal.js"></script>
