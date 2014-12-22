@@ -18,7 +18,7 @@
 
     <script type='text/javascript'>//<![CDATA[ 
     $(window).load(function(){
-    $(".alert").show();
+    $(".alert").fadeIn( 1000 );
     $(document).ready(function(){
         $('#dismissal').click(function(){
             $.cookie('iDream22-12-2014','true');
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-        <div class="alert alert-success alert-dismissible fade in" role="alert" style="display:none;">
+        <div class="alert alert-success alert-dismissible" role="alert" style="display:none;">
           <button type="button" class="close" data-dismiss="alert" id="dismissal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
           <h4>iDream's tierlist has recently been updated!</h4>
           <p>Click below to view his updated tierlist for the current patch. Heroes in iDream's list are ordered from best to worse and are grouped depending on role.</p>
