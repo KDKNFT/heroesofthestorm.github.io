@@ -31,6 +31,12 @@
         if($.cookie('iDream21-12-2014') == 'true'){
             $('.alert').hide();
         }
+        $('#clickThrough').click(function(){
+            $.cookie('iDream21-12-2014','true');
+        })
+        if($.cookie('iDream21-12-2014') == 'true'){
+            $('.alert').hide();
+        }
     })
     });//]]>  
 
@@ -64,7 +70,7 @@
           <h4>iDream's tierlist has recently been updated!</h4>
           <p>Click below to view his updated tierlist for the current patch. Heroes in iDream's list are ordered from best to worse and are grouped depending on role.</p>
           <p>
-            <a href="./idream-tierlist"><button type="button" class="btn btn-success">View iDream's tierlist</button></a>
+            <a href="./idream-tierlist"><button type="button" id="clickThrough" class="btn btn-success">View iDream's tierlist</button></a>
             <button type="button" class="btn btn-default" data-dismiss="alert" id="dismissol">No Thanks</button>
           </p>
         </div>
