@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 625px) {
+	#jainaModal {
+		display: none;
+	}
+	
 	.adslot-1 {
 		float: inherit;
 		width: 320px;
