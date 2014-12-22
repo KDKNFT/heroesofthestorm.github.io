@@ -2,14 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="google-site-verification" content="6nWVmWsxcK_bI66VHHFcPKnnj_RL_3d7VELE3hE3kbM" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="C9 Zuna's Tier List with Talent order for HotS (Heroes of the Storm).">
+    <meta name="description" content="C9 Maelstrom Zuna's Tier List with Talent order for HotS (Heroes of the Storm).">
     <link rel="shortcut icon" href="18x18.ico">
-    <title>Zuna's Tier List with Build/Talent Orders</title>
+    <title>C9 Zuna's Tier List with Build/Talent Orders for HotS(Heroes of the Storm)</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.js'></script>
+    <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
+
+
+    <script type='text/javascript'>//<![CDATA[ 
+    $(window).load(function(){
+    $(document).ready(function(){
+        $('#dismissal').click(function(){
+            $.cookie('dismissed','true');
+        })
+        if($.cookie('dismissed') == 'true'){
+            $('.alert').hide();
+        }
+    })
+    });//]]>  
+
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,7 +39,7 @@
   </head>
   <body>
     <center>
-      <div id="body" style="width:1222px;margin:auto">
+      <div id="body">
         <div class="navigation">
           <div style="padding-top:20px">        
             <div class="text-center">
@@ -28,47 +47,62 @@
                 <a href="./zuna-tierlist" class="list-group-item active">Zuna's Tierlist</a>
                 <a href="./idream-tierlist" class="list-group-item">iDream's Tierlist</a>
                 <a href="./free-hero-rotation" class="list-group-item">Free Hero Rotation</a>
+                <a href="./tips" class="list-group-item">Useful Tips & Links</a>
               </div>
             </div>
           </div>
         </div>
 
-        <h1>Zuna's Tier List with Talent Orders</h1>
+        <div class="container">
+            <div class="alert">
+          <button type="button" class="close" data-dismiss="alert" id="dismissal">;</button>
+          <strong>Warning!</strong> Best check yo self, you're not looking too good.
+        </div>
+        </div>
 
+        <div class="alert alert-success alert-dismissible fade in" role="alert">
+          <button type="button" class="close" data-dismiss="alert" id="dismissal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <h4>iDream's tierlist has recently been updated!</h4>
+          <p>Click below to view his updated tierlist for the current patch. Heroes in iDream's list are ordered from best to worse and are grouped depending on role.</p>
+          <p>
+            <a href="./idream-tierlist"><button type="button" class="btn btn-success">View iDream's tierlist</button></a>
+            <button type="button" class="btn btn-default" data-dismiss="alert" id="dismissal">No Thanks</button>
+          </p>
+        </div>
+
+        <h1>Zuna's Tier List with Talent Orders</h1>
+        <h4>Last updated 14th December 2014 (Valla 2→1, Raynor 2→3, Abathur 4→3)</h4>
+
+        <style type="text/css">
+        .adslot-1 { display:inline-block; float: inherit; width:468px; height:60px; }
+        @media (max-width:500px) { .adslot-1 { width:320px; height:100px; } }
+        @media (min-width:625px) { .adslot-1 { float: left; width:160px; height:600px;}}
+        </style>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Sidebar unit -->
-        <ins class="adsbygoogle"
-             style="float:left;display:inline-block;width:160px;height:600px"
+        <!-- adslot_1 -->
+        <ins class="adsbygoogle adslot-1"
+             style="display:inline-block"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="3870930983"></ins>
+             data-ad-slot="8773208187"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
 
+        <style type="text/css">
+        .adslot-2 { display:inline-block; float: right; width:160px; height:600px; }
+        @media (max-width:625px) { .adslot-2 { display: none; } }
+        </style>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Sidebar unit -->
-        <ins class="adsbygoogle"
-             style="float:right;display:inline-block;width:160px;height:600px"
+        <!-- adslot_2 -->
+        <ins class="adsbygoogle adslot-2"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="3870930983"></ins>
+             data-ad-slot="1249941384"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
 
         <h2>Tier 1</h2>
           <div>
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Abathur</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/abathur#pHXi">Talent Build</a></li>
-                <li><a href="https://www.youtube.com/watch?v=91ZB8MHqpEU">Video Commentary</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/abathur">Hero Information</a></li>
-              </ul>
-            </div>
-
             <div class="btn-group btn-group-primary">
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Arthas</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
@@ -77,54 +111,6 @@
                 <li><a href="http://www.heroesfire.com/hots/talent-calculator/arthas#pAD5">Talent Build</a></li>
                 <li class="divider"></li>
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/arthas">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tassadar</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tassadar#lnC4">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tassadar">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tychus</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tychus#hcuI">Talent Build</a></li>
-                <li><a href="https://www.youtube.com/watch?v=PH-xu4WgF2k">Video Commentary</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tychus">Hero Information</a></li>
-              </ul>
-            </div>
-          </div>
-
-        <h2>Tier 2</h2>
-          <div>
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Anub'arak</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/anubarak#l08z">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/anubarak">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Brightwing</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/brightwing#oSA6">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/brightwing">Hero Information</a></li>
               </ul>
             </div>
 
@@ -140,69 +126,14 @@
             </div>
 
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Nova</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tychus</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/nova#pbNs">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tychus#hcuI">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=PH-xu4WgF2k">Video Commentary</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/nova">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Raynor</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/raynor#kKO-">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/raynor">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Rehgar</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/rehgar#tPHE">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/rehgar">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Stitches</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/stitches#o1Cv">Talent Build</a></li>
-                <li class="divider"></li>          
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/stitches">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tyrael</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tyrael#pAGD">Talent Build</a></li>
-                <li><a href="https://www.youtube.com/watch?v=sdrrA0QHuMk">Video Commentary</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tyrael">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Uther</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/uther#hh-Q">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/uther">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tychus">Hero Information</a></li>
               </ul>
             </div>
 
@@ -218,28 +149,28 @@
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/valla">Hero Information</a></li>
               </ul>
             </div>
+          </div>
 
+        <h2>Tier 2</h2>
+          <div>
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Zagara</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Brightwing</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/zagara#r-us">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/brightwing#oSA6">Talent Build</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/zagara">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/brightwing">Hero Information</a></li>
               </ul>
             </div>
-          </div>
 
-        <h2>Tier 3</h2>
-          <div>    
             <div class="btn-group btn-group-primary">
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Chen</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
                 <li><a href="http://www.heroesfire.com/hots/talent-calculator/chen#kdy3">Talent Build</a></li>
-                <li><a href="#">Video Commentary SOON™</a></li>
+                <li><a href="https://www.youtube.com/watch?v=j71Xdlq3QyQ">Video Commentary</a></li>
                 <li class="divider"></li>
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/chen">Hero Information</a></li>
               </ul>
@@ -263,19 +194,77 @@
               </button>
               <ul class="dropdown-menu">
                 <li><a href="http://www.heroesfire.com/hots/talent-calculator/kerrigan#pYi8">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=t8yB4yiBtWk">Video Commentary</a></li>
                 <li class="divider"></li>
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/kerrigan">Hero Information</a></li>
               </ul>
             </div>
 
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Malfurion</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Muradin</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/malfurion#hynO">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/muradin#kbLV">Talent Build</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/malfurion">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/muradin">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Nazeebo</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/nazeebo#kbXQ">Talent Build</a></li>
+                <li class="divider"></li>          
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/nazeebo">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Rehgar</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/rehgar#hysE">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/rehgar">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Stitches</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/stitches#o1Cv">Talent Build</a></li>
+                <li class="divider"></li>          
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/stitches">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tassadar</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tassadar#kFIR">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SISUDJpmWoc">Video Commentary</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tassadar">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Uther</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/uther#hh-Q">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YvLYWonB_A8">Video Commentary</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/uther">Hero Information</a></li>
               </ul>
             </div>
 
@@ -291,19 +280,101 @@
             </div>
           </div>
 
-        <h2>Tier 4</h2>
+        <h2>Tier 3</h2>
           <div>
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Azmodan</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Abathur</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/azmodan#tWc7">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/abathur#o8IC">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=91ZB8MHqpEU">Video Commentary</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/azmodan">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/abathur">Hero Information</a></li>
               </ul>
             </div>
 
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Anub'arak</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/anubarak#l08z">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/anubarak">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">E.T.C</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/elite-tauren-chieftain#lTOv">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/elite-tauren-chieftain">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Jaina</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/Jaina#hfYK">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/jaina">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Malfurion</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/malfurion#hynO">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/malfurion">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Raynor</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/raynor#kKO-">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/raynor">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tyrael</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tyrael#pAGD">Talent Build</a></li>
+                <li><a href="https://www.youtube.com/watch?v=sdrrA0QHuMk">Video Commentary</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tyrael">Hero Information</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Zagara</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/zagara#r-us">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/zagara">Hero Information</a></li>
+              </ul>
+            </div>
+          </div>
+
+        <h2>Tier 4</h2>
+          <div>
             <div class="btn-group btn-group-primary">
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Diablo</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
@@ -316,24 +387,13 @@
             </div>
 
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Muradin</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Nova</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/muradin#onuN">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/nova#pFMU">Talent Build</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/muradin">Hero Information</a></li>
-              </ul>
-            </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Nazeebo</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/nazeebo#kbXQ">Talent Build</a></li>
-                <li class="divider"></li>          
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/nazeebo">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/nova">Hero Information</a></li>
               </ul>
             </div>
 
@@ -358,18 +418,29 @@
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/sonya">Hero Information</a></li>
               </ul>
             </div>
+
+            <div class="btn-group btn-group-primary">
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tyrande</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tyrande#oUG9">Talent Build</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tyrande">Hero Information</a></li>
+              </ul>
+            </div>
           </div>
 
         <h2>Tier 5</h2>
           <div>
             <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">E.T.C</button>
+              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Azmodan</button>
               <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/elite-tauren-chieftain#lTOv">Talent Build</a></li>
+                <li><a href="http://www.heroesfire.com/hots/talent-calculator/azmodan#tWc7">Talent Build</a></li>
                 <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/elite-tauren-chieftain">Hero Information</a></li>
+                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/azmodan">Hero Information</a></li>
               </ul>
             </div>
 
@@ -405,37 +476,67 @@
                 <li><a href="http://www.heroesfire.com/hots/wiki/heroes/murky">Hero Information</a></li>
               </ul>
             </div>
-
-            <div class="btn-group btn-group-primary">
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Tyrande</button>
-              <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button"><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.heroesfire.com/hots/talent-calculator/tyrande#oUG9">Talent Build</a></li>
-                <li class="divider"></li>
-                <li><a href="http://www.heroesfire.com/hots/wiki/heroes/tyrande">Hero Information</a></li>
-              </ul>
-            </div>
           </div>
 
         <br>
 
+        <style type="text/css">
+        .adslot-3 { display:inline-block; width:468px; height:60px; }
+        @media (max-width:500px) { .adslot-3 { width:320px; height:100px } }
+        @media (min-width:500px) { .adslot-3 { width:728px; height:90px; } }
+        </style>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Bottom tester -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:728px;height:90px"
+        <!-- adslot_3 -->
+        <ins class="adsbygoogle adslot-3"
+             style="display:inline-block"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="9711778581"></ins>
+             data-ad-slot="2726674581"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>  
-      </div>  
+        </script>
+
+        <div class="panel-group" id="changes" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingChanges" data-toggle="collapse" data-parent="#changes" href="#collapseChanges" aria-expanded="false" aria-controls="collapseChanges" style="cursor:pointer">
+              <h4 class="panel-title" style="text-align:center">
+                <a class="collapsed">
+                  Click to view past tier list changes:
+                </a>
+              </h4>
+            </div>
+            <div id="collapseChanges" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingChanges">
+              <div class="list-group">
+                <li class="list-group-item"><strong>14 December 2014:</strong> Valla 2→1, Raynor 2→3, Abathur 4→3</li>
+                <li class="list-group-item"><strong>11 December 2014:</strong> Zeratul 3→2</li>
+                <li class="list-group-item"><strong>6 December 2014:</strong> Jaina to tier 3, Falstad 2→1, Tyrael 2→3, Illidan and Kerrigan 3→2, E.T.C. 4→3, Muradin and Nazeebo 4→2</li>
+                <li class="list-group-item"><strong>2 December 2014<span id="jainaModal"> (<a data-toggle="modal" data-target="#jainapatchnotesModal">Jaina patch</a>)</span>:</strong> Abathur 1→4, Tassadar 1→2, Anub'arak 2→3, Zagara 2→3, Nova 2→3, Chen 3→2, Azmodan 4→5, Tyrande 5→4</li>
+              </div>
+            </div>
+          </div>
+        </div>
     </center>
 
+<!-- Jaina patch notes Modal -->
+<div class="modal fade" id="jainapatchnotesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Zuna talking about the Jaina Patch Note</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/8akP3d0q6tQ" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
