@@ -3,11 +3,7 @@
 	text-align: left;
 }
 
-@media (max-width: 625px) {
-	#jainaModal {
-		display: none;
-	}
-}
+
 
 @media (min-width: 1500px) {
 	#body {
