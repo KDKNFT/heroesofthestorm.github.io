@@ -11,6 +11,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +22,7 @@
   </head>
   <body>
     <center>
-      <div id="body" style="width:1222px;margin:auto">
+      <div id="body">
         <div class="navigation">
           <div style="padding-top:20px">        
             <div class="text-center">
@@ -39,21 +40,20 @@
         <h4>Last updated 14th December 2014 (Valla 2→1, Raynor 2→3, Abathur 4→3)</h4>
 
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Sidebar unit -->
-        <ins class="adsbygoogle"
-             style="float:left;display:inline-block;width:160px;height:600px"
+        <!-- adslot_1 -->
+        <ins class="adsbygoogle adslot-1"
+             style="display:inline-block"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="3870930983"></ins>
+             data-ad-slot="8773208187"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
 
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Sidebar unit -->
-        <ins class="adsbygoogle"
-             style="float:right;display:inline-block;width:160px;height:600px"
+        <!-- adslot_2 -->
+        <ins class="adsbygoogle adslot-2"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="3870930983"></ins>
+             data-ad-slot="1249941384"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
@@ -438,27 +438,58 @@
         <br>
 
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Bottom tester -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:728px;height:90px"
+        <!-- adslot_3 -->
+        <ins class="adsbygoogle adslot-3"
+             style="display:inline-block"
              data-ad-client="ca-pub-6749256792717063"
-             data-ad-slot="9711778581"></ins>
+             data-ad-slot="2726674581"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <div id="changelog" style="text-align:left; margin-left:220px" >
-          <h5>Changelog:</h5>
-          <h6>11th December: Zeratul 3→2</h6>
-          <h6>6th December: Jaina → 3, Falstad 2→1, Tyrael 2→3, Illidan and Kerrigan 3→2, E.T.C. 4→3, Muradin and Nazeebo 4→2</h6>
-          <h6>2nd December (<a href="https://www.youtube.com/watch?v=8akP3d0q6tQ">Jaina patch)</a>: Abathur 1→4, Tassadar 1→2, Anub'arak 2→3, Zagara 2→3, Nova 2→3, Chen 3→2, Azmodan 4→5, Tyrande 5→4</h6>
+
+        <div class="panel-group" id="changes" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingChanges" data-toggle="collapse" data-parent="#changes" href="#collapseChanges" aria-expanded="false" aria-controls="collapseChanges" style="cursor:pointer">
+              <h4 class="panel-title" style="text-align:center">
+                <a class="collapsed">
+                  Click to view past tier list changes:
+                </a>
+              </h4>
+            </div>
+            <div id="collapseChanges" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingChanges">
+              <div class="list-group">
+                <li class="list-group-item"><strong>14 December 2014:</strong> Valla 2→1, Raynor 2→3, Abathur 4→3</li>
+                <li class="list-group-item"><strong>11 December 2014:</strong> Zeratul 3→2</li>
+                <li class="list-group-item"><strong>6 December 2014:</strong> Jaina to tier 3, Falstad 2→1, Tyrael 2→3, Illidan and Kerrigan 3→2, E.T.C. 4→3, Muradin and Nazeebo 4→2</li>
+                <li class="list-group-item"><strong>2 December 2014 (<a data-toggle="modal" data-target="#jainapatchnotesModal">Jaina patch</a>):</strong> Abathur 1→4, Tassadar 1→2, Anub'arak 2→3, Zagara 2→3, Nova 2→3, Chen 3→2, Azmodan 4→5, Tyrande 5→4</li>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>  
     </center>
+
+<!-- Jaina patch notes Modal -->
+<div class="modal fade" id="jainapatchnotesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Zuna talking about the Jaina Patch Note</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/v/8akP3d0q6tQ"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

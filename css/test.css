@@ -1,0 +1,51 @@
+#changes {
+	padding: 0 18%;
+	text-align: left;
+}
+
+.adslot-1 {
+	float: left;
+	width: 160px;
+	height: 600px;
+}
+
+.adslot-2 {
+	float: right;
+	display: block;
+	width: 160px;
+	height: 600px;
+}
+
+.adslot-3 {
+	width: 468px;
+	height: 60px;
+}
+
+@media (max-width: 625px) {
+	.adslot-1 {
+		float: inherit;
+		width: 320px;
+		height: 100px;
+	}
+
+	.adslot-2 {
+		display: none;
+	}
+
+	.adslot-3 {
+		width: 320px;
+		height: 100px;
+	}
+}
+
+@media (min-width: 730px){
+	.adslot-3 {
+		width: 728px;
+		height: 90px;
+	}
+}
+
+@media (min-width: 1500px) {
+	#body {
+	width: 1500px;}
+}
